@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Harman Lall</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        /* main.css */
+        body {
+            background-color: #FAF9F6; 
+            font-family: "Outfit", sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between; 
+            align-items: center;
+            padding: 20px;
+            background-color: #FAF9F6;
+        }
+
+        header h1 a {
+            text-decoration: none;
+            color: #000; 
+        }
+
+        header h1 a:hover {
+            color: #fe9ebe;
+        }
+
+        h1 {
+            font-size: 24px;
+            font-weight: 500;
+            margin: 0;
+            color: #000;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            font-size: 24px;
+            font-weight: 400;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #000;
+        }
+
+        nav ul li a:hover {
+            color: #fe9ebe;
+        }
+
+        @media screen and (max-width: 600px) {
+            header {
+                height: 100px;
+            }
+
+            ul {
+                display: block;
+                padding-left: 0;
+                text-align: center;
+            }
+
+            main {
+                flex: 1 0 100%;
+            }
+
+            aside {
+                flex: 1 0 100%;
+            }
+
+            footer {
+                text-align: center;
+            }
+        }
+
+        /* aboutstyles.css */
+        .about-title {
+            font-size: 40px;
+            font-weight: 300;
+            margin: 40px 0 20px 40px;
+        }
+
+        .about-section {
+            display: flex;
+            align-items: flex-start; 
+            justify-content: flex-start; 
+            gap: 40px; 
+            margin: 40px; 
+        }
+
+        .about-section img {
+            width: 450px;
+            height: auto;
+            object-fit: cover; 
+            margin: 0; 
+        }
+
+        .about-section .about-text {
+            max-width: 600px;
+            line-height: 1.8; 
+            margin: 0; 
+            padding: 0; 
+            display: flex; 
+            flex-direction: column; 
+            justify-content: flex-start; 
+        }
+
+        .container {
+            background-color: #FAF9F6;
+            max-width: 1280px;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        footer {
+            padding: 20px;
+            text-align: center;
+            font-size: 14px;
+            margin-top: 60px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><a href="index.html">HARMAN LALL</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="portfolio.html">PORTFOLIO</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <h2 class="about-title">ABOUT</h2>
+            <div class="about-section">
+                <img src="images/profile-picture.jpg" alt="Profile picture of Harman Lall">
+                <div class="about-text">
+                    <p>
+                        Harman Lall is a South Asian Canadian graphic designer specializing in typography. 
+                        Her work focuses on creating meaningful messages while adding comedic relief to her work. 
+                        She reflects on her identity of being a first-generation South Asian Canadian and brings 
+                        that energy into her design to honour her Punjabi heritage.
+                    </p>
+                    <p>
+                        Harman is currently studying Graphic Design at George Brown College and works as a freelancer.
+                    </p>
+                    <p>
+                        Harman loves Harry Potter, Bollywood music, contemporary art, vintage clothing, and video games.
+                    </p>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; Copyright 2024 Harman Lall. All Rights Reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
+
+
+
